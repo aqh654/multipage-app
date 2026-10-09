@@ -45,8 +45,6 @@ try:
                 color="Region:N",
             )
         )
-        # tutorial uses use_container_width=True, which current
-        # Streamlit has replaced with width="stretch"
         st.altair_chart(chart, width="stretch")
 except URLError as e:
     st.error(
