@@ -74,7 +74,7 @@ try:
     if selected_layers:
         st.pydeck_chart(
             pdk.Deck(
-                map_style="mapbox://styles/mapbox/light-v9",
+                map_style="dark",
                 initial_view_state={
                     "latitude": 37.76,
                     "longitude": -122.4,
